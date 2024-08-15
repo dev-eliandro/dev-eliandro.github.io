@@ -440,9 +440,19 @@
         <p>---</p>
       </div><!-- End Section Title -->
       <!-- 16:9 aspect ratio -->
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="/assets/video/feedback.mp4"></iframe>
-</div>
+      <div class="container">
+        <div class="row">
+          <!-- Coluna 1 -->
+          <div class="col-md-4">
+            <div class="ratio ratio-16x9">
+              <video id="video1" controls onclick="toggleFullScreen(this)">
+                <source src="/assets/video/apresent-1.mp4" type="video/mp4">
+                Seu navegador não suporta o elemento de vídeo.
+              </video>
+            </div>
+          </div>
+         </div>
+      </div>
     </section>
 
   <!-- Contact Section -->
